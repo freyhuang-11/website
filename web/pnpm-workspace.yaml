@@ -1,0 +1,9 @@
+allowBuilds:
+  "@parcel/watcher": true
+  "@prisma/engines": true
+  "@prisma/client": true
+  "@swc/core": true
+  esbuild: true
+  prisma: true
+  sharp: true
+  unrs-resolver: true

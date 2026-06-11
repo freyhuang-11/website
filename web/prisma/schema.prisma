@@ -1,0 +1,134 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  name         String?
+  passwordHash String?
+  role         String   @default("VIEWER") // ADMIN | EDITOR | VIEWER
+  createdAt    DateTime @default(now())
+}
+
+model Lead {
+  id           String   @id @default(cuid())
+  email        String
+  company      String?
+  projectType  String
+  scale        String
+  timeline     String
+  needAI       String
+  needI18n     Boolean  @default(false)
+  notes        String?
+  estimateLow  Int?
+  estimateHigh Int?
+  source       String? // hero | quote | contact
+  locale       String   @default("en")
+  handled      Boolean  @default(false)
+  createdAt    DateTime @default(now())
+}
+
+model Article {
+  id          String    @id @default(cuid())
+  slug        String    @unique
+  titleEn     String
+  titleZh     String
+  tldrEn      String
+  tldrZh      String
+  bodyEn      String // markdown
+  bodyZh      String
+  faqJson     String? // JSON [{qEn,aEn,qZh,aZh}]
+  sourcesJson String? // JSON [{title,url}]
+  seoTitleEn  String?
+  seoTitleZh  String?
+  seoDescEn   String?
+  seoDescZh   String?
+  ogImage     String?
+  topic       String?
+  state       String    @default("DRAFT") // DRAFT | PENDING_REVIEW | PUBLISHED | ARCHIVED
+  publishedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Case {
+  id          String    @id @default(cuid())
+  slug        String    @unique
+  titleEn     String
+  titleZh     String
+  industry    String
+  techJson    String // JSON string[]
+  summaryEn   String
+  summaryZh   String
+  challengeEn String
+  challengeZh String
+  solutionEn  String
+  solutionZh  String
+  resultEn    String
+  resultZh    String
+  isSample    Boolean   @default(true)
+  order       Int       @default(0)
+  publishedAt DateTime?
+}
+
+model Industry {
+  id      String  @id @default(cuid())
+  slug    String  @unique
+  nameEn  String
+  nameZh  String
+  taglineEn String
+  taglineZh String
+  bodyEn  String
+  bodyZh  String
+  iconKey String?
+  order   Int     @default(0)
+}
+
+model Faq {
+  id         String  @id @default(cuid())
+  questionEn String
+  questionZh String
+  answerEn   String
+  answerZh   String
+  category   String?
+  order      Int     @default(0)
+}
+
+model Source {
+  id         String      @id @default(cuid())
+  name       String
+  url        String      @unique
+  type       String      @default("rss")
+  cron       String      @default("0 2,14 * * *")
+  enabled    Boolean     @default(true)
+  lastRunAt  DateTime?
+  lastError  String?
+  createdAt  DateTime    @default(now())
+  candidates Candidate[]
+}
+
+model Candidate {
+  id          String   @id @default(cuid())
+  sourceId    String
+  source      Source   @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+  originUrl   String   @unique
+  originTitle String
+  excerpt     String
+  topic       String?
+  score       Int?
+  draftMd     String?
+  state       String   @default("NEW") // NEW | SCORED | DRAFTED | PENDING_REVIEW | PUBLISHED | REJECTED
+  articleId   String?
+  createdAt   DateTime @default(now())
+}
+
+model Setting {
+  key   String @id
+  value String // JSON
+}

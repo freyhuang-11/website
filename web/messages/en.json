@@ -1,0 +1,229 @@
+{
+  "nav": {
+    "services": "Services",
+    "work": "Work",
+    "industries": "Industries",
+    "insights": "Insights",
+    "about": "About",
+    "getQuote": "Get a quote",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Now accepting Q3 engagements",
+    "line1": "Your tools.",
+    "line2": "Custom-built.",
+    "line3": "AI-powered.",
+    "sub": "Jimeng Network is a software studio. We design, build and ship bespoke software, workflows and AI agents — one company at a time. No templates. No SaaS lock-in.",
+    "ctaQuote": "Get an instant quote",
+    "ctaCall": "Book a 30-min call",
+    "scroll": "Scroll for proof"
+  },
+  "trusted": {
+    "label": "Trusted by teams building the AI-native stack"
+  },
+  "stats": {
+    "s1k": "3 days",
+    "s1v": "From first message to signed SOW",
+    "s2k": "40+",
+    "s2v": "Custom tools shipped in 2025",
+    "s3k": "100%",
+    "s3v": "Source code delivered to client repo",
+    "s4k": "0",
+    "s4v": "Vendor lock-in by design"
+  },
+  "services": {
+    "kicker": "01 / Services",
+    "title": "Four ways we put AI to work",
+    "sub": "Most studios sell hours. We sell outcomes — packaged into four depths of engagement so you only buy what you need.",
+    "l1Title": "AI tooling",
+    "l1Desc": "Hook your team into ChatGPT, Claude or local models with disciplined prompts and guardrails.",
+    "l2Title": "Workflow automation",
+    "l2Desc": "Embed AI into your day-to-day — sales, ops, support — via n8n or custom orchestration.",
+    "l3Title": "Bespoke agents",
+    "l3Desc": "Agents with tools, memory and your knowledge base. One company, one toolset.",
+    "l4Title": "Models & RAG",
+    "l4Desc": "Fine-tuning, retrieval pipelines, private deployment when off-the-shelf isn't enough.",
+    "pageTitle": "Services",
+    "pageSub": "From a single prompt library to a privately deployed model — pick the depth that matches your problem.",
+    "custom": {
+      "kicker": "Custom software, end to end",
+      "title": "We own the whole journey",
+      "discovery": "Discovery & scoping",
+      "discoveryDesc": "We interview your team, map the workflow, and write the spec with you — before any code.",
+      "build": "Design & build",
+      "buildDesc": "Weekly demos. Your Git repo. Milestone-based payment so you never pay for vapor.",
+      "ship": "Ship & train",
+      "shipDesc": "We deploy to your infrastructure and train your team until they're independent.",
+      "maintain": "Support & evolve",
+      "maintainDesc": "Optional retainer. We keep your tools sharp as your business changes."
+    }
+  },
+  "customDev": {
+    "kicker": "02 / Custom software",
+    "title": "Classic software, built properly",
+    "sub": "AI is our edge, not our only trade. We've shipped traditional custom software for a decade — the AI just makes it faster and cheaper for you.",
+    "c1": "Web apps & platforms",
+    "c1d": "Customer portals, marketplaces, booking systems — full-stack, your brand, your server.",
+    "c2": "Mobile apps",
+    "c2d": "iOS and Android from one codebase, App Store submission included.",
+    "c3": "Internal systems",
+    "c3d": "ERPs, dashboards, approval flows — kill the spreadsheet sprawl.",
+    "c4": "Integrations & APIs",
+    "c4d": "Make your existing tools talk to each other: payments, logistics, CRMs, anything with an API."
+  },
+  "sop": {
+    "kicker": "02 / How it works",
+    "title": "From “hello” to signed SOW in 72 hours.",
+    "d1": "Day 01",
+    "d1Title": "Discovery",
+    "d1Desc": "30-min call. We listen, you talk. We respond within 4 hours of your first message — guaranteed.",
+    "d2": "Day 02",
+    "d2Title": "Proposal",
+    "d2Desc": "AI-assisted draft SOW, milestone plan and fixed-fee quote in your inbox. You poke holes.",
+    "d3": "Day 03",
+    "d3Title": "Signed",
+    "d3Desc": "Contract, 30% deposit, project channel and a Git repo with your name on it."
+  },
+  "evidence": {
+    "kicker": "03 / Our stack",
+    "title": "We don't just sell AI. We run on it.",
+    "sub": "Every project at Jimeng Network is built with an AI-native toolchain. This is the same stack we'll set up for you.",
+    "tools": {
+      "claudeCode": "Agentic coding in the terminal — our engineers ship 3× faster.",
+      "cursor": "AI-first IDE for every line we write.",
+      "v0": "UI prototypes in hours, not weeks.",
+      "agents": "Our own agent framework for client workflows."
+    }
+  },
+  "cases": {
+    "kicker": "04 / Selected work",
+    "title": "Built for teams like yours",
+    "viewAll": "View all work",
+    "sample": "Sample Project",
+    "sampleNote": "For demonstration only",
+    "readCase": "Read case study"
+  },
+  "cta": {
+    "title1": "Tell us what you need.",
+    "title2": "We'll quote it.",
+    "sub": "6 questions. Instant range. No sales pressure — just a number you can take to your CFO.",
+    "button": "Start the quote"
+  },
+  "footer": {
+    "tagline": "Software, custom-built with AI.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "rights": "© 2026 Jimeng Network"
+  },
+  "quote": {
+    "title": "Get an instant estimate",
+    "sub": "Six questions, sixty seconds. We'll show you a realistic range — then email you the full breakdown.",
+    "step": "Step {current} of {total}",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Get my estimate",
+    "q1": "What are we building?",
+    "q1a": "Website / landing",
+    "q1b": "Internal tool",
+    "q1c": "AI agent",
+    "q1d": "SaaS product",
+    "q1e": "Mobile app",
+    "q1f": "Something else",
+    "q2": "How big is your team?",
+    "q2a": "Just me",
+    "q2b": "Under 10",
+    "q2c": "10–50",
+    "q2d": "50+",
+    "q3": "When do you need it?",
+    "q3a": "Under 4 weeks",
+    "q3b": "1–3 months",
+    "q3c": "3–6 months",
+    "q3d": "6+ months",
+    "q4": "Should it include AI?",
+    "q4a": "Yes, definitely",
+    "q4b": "Not sure — advise me",
+    "q4c": "No",
+    "q5": "Multiple languages or platforms?",
+    "q5a": "Yes",
+    "q5b": "No",
+    "q6": "Where can we reach you?",
+    "emailLabel": "Work email",
+    "emailPlaceholder": "you@company.com",
+    "companyLabel": "Company (optional)",
+    "notesLabel": "Anything else? (optional)",
+    "resultTitle": "Your project likely falls between",
+    "resultNote": "This is a realistic planning range based on 40+ projects, not a teaser price. We've emailed you the full breakdown.",
+    "tierLight": "Light",
+    "tierStandard": "Standard",
+    "tierFlagship": "Flagship",
+    "tierLightRange": "$5–15k",
+    "tierStandardRange": "$15–50k",
+    "tierFlagshipRange": "$50k+",
+    "recommended": "Recommended for you",
+    "talk": "Talk to us about this estimate",
+    "errorEmail": "Please enter a valid email",
+    "errorRequired": "Please pick an option"
+  },
+  "contact": {
+    "title": "Let's talk",
+    "sub": "Tell us about your project, or just say hi. We respond within 4 hours on business days.",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "messageLabel": "What can we build for you?",
+    "send": "Send message",
+    "sent": "Message sent. We'll get back to you within 4 hours.",
+    "channels": "Other channels",
+    "email": "Email us",
+    "whatsapp": "WhatsApp",
+    "wechat": "WeChat",
+    "wechatScan": "Scan to add us on WeChat",
+    "book": "Book a 30-min call"
+  },
+  "faq": {
+    "title": "Questions, answered straight",
+    "sub": "The things every client asks before signing — including the awkward ones."
+  },
+  "about": {
+    "title": "A studio built for the AI era",
+    "sub": "We started Jimeng Network on a simple bet: AI doesn't replace custom software — it finally makes it affordable.",
+    "valuesTitle": "How we work",
+    "v1": "Your repo, your code",
+    "v1d": "Everything we write lives in a Git repository you own from day one.",
+    "v2": "Milestones, not retainers",
+    "v2d": "You pay when agreed work ships. Every milestone is demoable.",
+    "v3": "AI with receipts",
+    "v3d": "We show you exactly which tools we use and how — no black boxes.",
+    "teamTitle": "The team"
+  },
+  "work": {
+    "title": "Selected work",
+    "sub": "Six engagements that show our range. All shown as anonymized samples.",
+    "filterAll": "All",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "result": "Result",
+    "stack": "Stack"
+  },
+  "industries": {
+    "title": "Industry playbooks",
+    "sub": "We've built enough in these verticals to skip the learning curve.",
+    "explore": "Explore playbook"
+  },
+  "insights": {
+    "title": "Insights",
+    "sub": "What we're learning building AI-native software — published as we learn it.",
+    "tldr": "TL;DR",
+    "readMore": "Read",
+    "faqTitle": "FAQ",
+    "sources": "Sources",
+    "ctaTitle": "Need this for your company?",
+    "ctaButton": "Get a quote",
+    "minRead": "{min} min read"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong. Please try again.",
+    "backHome": "Back to home"
+  }
+}
